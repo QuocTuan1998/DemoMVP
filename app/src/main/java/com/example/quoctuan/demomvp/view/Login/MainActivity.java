@@ -1,15 +1,14 @@
-package com.example.quoctuan.demomvp;
+package com.example.quoctuan.demomvp.view.Login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.quoctuan.demomvp.handlelogin.PresenterLogicHandleLogin;
-import com.example.quoctuan.demomvp.handlelogin.ViewHandleLogin;
+import com.example.quoctuan.demomvp.R;
+import com.example.quoctuan.demomvp.presenter.login.PresenterLogicHandleLogin;
 
 public class MainActivity extends AppCompatActivity implements ViewHandleLogin,View.OnClickListener {
     private EditText ed_name,ed_pass;

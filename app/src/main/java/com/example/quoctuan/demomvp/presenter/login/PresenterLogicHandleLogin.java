@@ -1,4 +1,6 @@
-package com.example.quoctuan.demomvp.handlelogin;
+package com.example.quoctuan.demomvp.presenter.login;
+
+import com.example.quoctuan.demomvp.view.Login.ViewHandleLogin;
 
 /**
  * Created by quoctuan on 04/03/2018.
